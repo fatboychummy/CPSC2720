@@ -1,0 +1,25 @@
+test-clean:
+   stage: build
+   script:
+      - make testShapes-clean
+   artifacts:
+      paths:
+         - testShapes-clean
+
+test-bugs:
+   stage: build
+   script:
+      - make testShapes-bugs
+   artifacts:
+      paths:
+         - testShapes-bugs
+
+clean:
+   stage: test
+   script:
+      - testShapes-clean
+
+bugs:
+   script:
+      - testShapes-bugs
+   allow_failure: true

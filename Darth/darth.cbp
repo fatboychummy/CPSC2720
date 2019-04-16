@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="darth" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/darth" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/darth" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="game.cpp" />
+		<Unit filename="include/Character.h" />
+		<Unit filename="include/DeathButtonPuzzle.h" />
+		<Unit filename="include/Door.h" />
+		<Unit filename="include/EscapeButtonPuzzle.h" />
+		<Unit filename="include/Exceptions.h" />
+		<Unit filename="include/GameData.h" />
+		<Unit filename="include/Inventory.h" />
+		<Unit filename="include/Item.h" />
+		<Unit filename="include/ItemType.h" />
+		<Unit filename="include/KeyPadPuzzle.h" />
+		<Unit filename="include/NPC.h" />
+		<Unit filename="include/Oxygen.h" />
+		<Unit filename="include/PasswordPuzzle.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Puzzle.h" />
+		<Unit filename="include/Quest.h" />
+		<Unit filename="include/QuestList.h" />
+		<Unit filename="include/Room.h" />
+		<Unit filename="include/Ship.h" />
+		<Unit filename="include/StatusEffect.h" />
+		<Unit filename="src/Character.cpp" />
+		<Unit filename="src/DeathButtonPuzzle.cpp" />
+		<Unit filename="src/Door.cpp" />
+		<Unit filename="src/EscapeButtonPuzzle.cpp" />
+		<Unit filename="src/GameData.cpp" />
+		<Unit filename="src/Inventory.cpp" />
+		<Unit filename="src/Item.cpp" />
+		<Unit filename="src/KeyPadPuzzle.cpp" />
+		<Unit filename="src/NPC.cpp" />
+		<Unit filename="src/Oxygen.cpp" />
+		<Unit filename="src/PasswordPuzzle.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Puzzle.cpp" />
+		<Unit filename="src/Quest.cpp" />
+		<Unit filename="src/QuestList.cpp" />
+		<Unit filename="src/Room.cpp" />
+		<Unit filename="src/Ship.cpp" />
+		<Unit filename="test/TestCharacter.cpp" />
+		<Unit filename="test/TestDoor.cpp" />
+		<Unit filename="test/TestGamedata.cpp" />
+		<Unit filename="test/TestInventory.cpp" />
+		<Unit filename="test/TestItem.cpp" />
+		<Unit filename="test/TestNPC.cpp" />
+		<Unit filename="test/TestOxygen.cpp" />
+		<Unit filename="test/TestPlayer.cpp" />
+		<Unit filename="test/TestQuest.cpp" />
+		<Unit filename="test/TestQuestList.cpp" />
+		<Unit filename="test/TestRoom.cpp" />
+		<Unit filename="test/TestShip.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

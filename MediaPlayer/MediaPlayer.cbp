@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MediaPlayer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MediaPlayer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MediaPlayer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/ButtonObserver.h" />
+		<Unit filename="include/Command.h" />
+		<Unit filename="include/Exceptions.h" />
+		<Unit filename="include/ModeCommand.h" />
+		<Unit filename="include/NextCommand.h" />
+		<Unit filename="include/Observer.h" />
+		<Unit filename="include/PauseCommand.h" />
+		<Unit filename="include/PlayCommand.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/PlayerFactory.h" />
+		<Unit filename="include/PlayerSpec.h" />
+		<Unit filename="include/PreviousCommand.h" />
+		<Unit filename="src/ButtonObserver.cpp" />
+		<Unit filename="src/Command.cpp" />
+		<Unit filename="src/ModeCommand.cpp" />
+		<Unit filename="src/NextCommand.cpp" />
+		<Unit filename="src/Observer.cpp" />
+		<Unit filename="src/PauseCommand.cpp" />
+		<Unit filename="src/PlayCommand.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/PlayerFactory.cpp" />
+		<Unit filename="src/PlayerSpec.cpp" />
+		<Unit filename="src/PreviousCommand.cpp" />
+		<Unit filename="test/TestButtonObserver.cpp" />
+		<Unit filename="test/TestModeCommand.cpp" />
+		<Unit filename="test/TestPlayer.cpp" />
+		<Unit filename="test/TestPlayerFactory.cpp" />
+		<Unit filename="test/TestPlayerSpec.cpp" />
+		<Unit filename="test/TestSimpleCommands.cpp" />
+		<Unit filename="test/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="asn2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/asn2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/asn2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Circle.h" />
+		<Unit filename="include/Cuboid.h" />
+		<Unit filename="include/Cylinder.h" />
+		<Unit filename="include/Exceptions.h" />
+		<Unit filename="include/GeometricShape.h" />
+		<Unit filename="include/Quadrilateral.h" />
+		<Unit filename="include/Shape2D.h" />
+		<Unit filename="include/Shape3D.h" />
+		<Unit filename="include/Triangle.h" />
+		<Unit filename="src/Circle.cpp" />
+		<Unit filename="src/Cuboid.cpp" />
+		<Unit filename="src/Cylinder.cpp" />
+		<Unit filename="src/Quadrilateral.cpp" />
+		<Unit filename="src/Triangle.cpp" />
+		<Unit filename="test/TestCircle.cpp" />
+		<Unit filename="test/TestCuboid.cpp" />
+		<Unit filename="test/TestCylinder.cpp" />
+		<Unit filename="test/TestQuadrilateral.cpp" />
+		<Unit filename="test/TestTriangle.cpp" />
+		<Unit filename="test/main.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
